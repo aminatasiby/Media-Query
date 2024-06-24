@@ -1,0 +1,55 @@
+body {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 5%
+}
+
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+    background-color: pink;
+
+}
+
+
+
+@media screen and (min-width: 1240px) {
+    
+    figure {
+        background-color: blueviolet;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (min-width: 764px) {
+    figure {
+        background-color: green;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+}
